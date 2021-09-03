@@ -88,11 +88,62 @@ ul li {
 }
 
 .header__bottom {
-  margin-top: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .header__logo {
   margin-top: 18px;
+}
+
+.header__call {
+  position: relative;
+}
+
+.header__contacts {
+  margin-top: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 282px;
+}
+
+.header__messengers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5px;
+}
+
+.header__tel {
+  width: 190px;
+}
+
+.header__phone {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.header__days {
+  font-size: 11px;
+  margin-top: 2px;
+}
+
+.header__viber {
+  margin-right: 5px;
+}
+
+.header__search {
+  width: 235px;
+  margin-top: 12px;
+}
+
+.header__cart {
+  margin-top: 12px;
 }
 
 .logo__a {
@@ -115,5 +166,218 @@ ul li {
   color: #c4c6c7;
   text-transform: uppercase;
   margin-top: 4px;
+}
+
+.call {
+  height: 70px;
+  width: 115px;
+}
+
+.call__a {
+  font-size: 12px;
+  font-weight: 400;
+  color: #4673ab;
+  text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  left: 20px;
+  top: 17px;
+  text-decoration: underline;
+  line-height: 16px;
+}
+
+.call__a:hover {
+  color: #ff6633;
+}
+
+.call__img {
+  z-index: -1;
+  display: block;
+}
+
+.tel {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.search__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.search__bottom {
+  margin-top: 12px;
+}
+
+.search__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.search__img {
+  width: 25px;
+  height: 25px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.search__p {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 18px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.search__color {
+  color: #ff6633;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: italic;
+  letter-spacing: normal;
+  line-height: 18px;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.search__input {
+  height: 30px;
+  width: 168px;
+  border-radius: 4px 0 0 4px;
+  background-color: #eff0f4;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+}
+
+.search__button {
+  width: 58px;
+  height: 26px;
+  border-radius: 3px;
+  background-color: #ff5816;
+  border: none;
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  color: #ffffff;
+  margin-top: 2px;
+  margin-right: 2px;
+}
+
+.search__button:hover {
+  cursor: pointer;
+}
+
+.search__block {
+  height: 30px;
+  background-color: #eff0f4;
+  border-radius: 0 4px 4px 0;
+}
+
+.cart__top {
+  padding-top: 12px;
+  padding-left: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url(img/header/backgr.png);
+  background-repeat: no-repeat;
+  height: 52px;
+  width: 195px;
+}
+
+.cart__bottom {
+  margin-top: 6px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.cart__basket {
+  width: 26px;
+  height: 22px;
+  margin-right: 14px;
+  margin-top: 3px;
+}
+
+.cart__p {
+  color: #040d0d;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.cart__quantity {
+  color: #4673ab;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  border-bottom: 1px solid;
+}
+
+.cart__price {
+  font-weight: 400;
+  text-transform: lowercase;
+}
+
+.cart__left {
+  margin-right: 7px;
+}
+
+.cart__left, .cart__right {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  border-bottom: 1px dotted;
+}
+
+.cart__favorites {
+  width: 15px;
+  height: 13px;
+  margin-right: 7px;
+}
+
+.cart__comparison {
+  width: 15px;
+  height: 20px;
+  margin-right: 7px;
+}
+
+.favorites__p,
+.comparison__p {
+  color: #363c3e;
+  font-size: 11px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 18px;
+  margin-right: 5px;
+}
+
+.favorites__span,
+.comparison__span {
+  color: #4673ab;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 16px;
 }
 /*# sourceMappingURL=style.css.map */
