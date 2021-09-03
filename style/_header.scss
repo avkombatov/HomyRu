@@ -32,7 +32,7 @@
     }
 
     &__bottom {
-        // margin-top: 8px;
+
         display: flex;
         justify-content: space-between;
     }
@@ -74,11 +74,24 @@
         margin-right: 5px;
     }
 
+    &__email {
+        display: inline-flex;
+        margin-top: 3px;
+        color: #4673ab;
+        font-size: 13px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        border-bottom: 1px solid;
+    }
+
     &__search {
         width: 235px;
         margin-top: 12px;
     }
-    &__cart{
+
+    &__cart {
         margin-top: 12px;
     }
 
@@ -284,7 +297,8 @@
         font-weight: 400;
         text-transform: lowercase;
     }
-    &__left{
+
+    &__left {
         margin-right: 7px;
     }
 
@@ -295,13 +309,13 @@
         border-bottom: 1px dotted;
     }
 
-    &__favorites
-     {
+    &__favorites {
         width: 15px;
         height: 13px;
         margin-right: 7px;
     }
-    &__comparison{
+
+    &__comparison {
         width: 15px;
         height: 20px;
         margin-right: 7px;
@@ -319,6 +333,10 @@
         letter-spacing: normal;
         line-height: 18px;
         margin-right: 5px;
+        &:hover{
+            color: $color1;
+            transition: 0.2s;
+        }
     }
 
     &__span {
@@ -330,3 +348,5 @@
         line-height: 16px;
     }
 }
+
+

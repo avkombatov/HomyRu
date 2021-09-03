@@ -137,6 +137,20 @@ ul li {
   margin-right: 5px;
 }
 
+.header__email {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-top: 3px;
+  color: #4673ab;
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  border-bottom: 1px solid;
+}
+
 .header__search {
   width: 235px;
   margin-top: 12px;
@@ -369,6 +383,13 @@ ul li {
   letter-spacing: normal;
   line-height: 18px;
   margin-right: 5px;
+}
+
+.favorites__p:hover,
+.comparison__p:hover {
+  color: #ff6633;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .favorites__span,
