@@ -1,0 +1,21 @@
+$color1: #ff6633;
+$color2: #4673ab;
+$textSize: 13px;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    text-decoration: none;
+    transition: 0.2s;
+}
+.center {
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+}
+ul li {
+    list-style-type: none;
+}

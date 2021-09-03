@@ -1,0 +1,66 @@
+.header {
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 15px;
+    }
+
+    &__p {
+        font-size: $textSize;
+        color: #696969;
+
+    }
+
+    &__a {
+        color: $color2;
+
+        &_margin-right {
+            margin-right: 20px;
+        }
+
+        &_dashed {
+            border-bottom: 1px dashed;
+        }
+
+        &_solid {
+            border-bottom: 1px solid;
+        }
+
+        &:hover {
+            color: $color1;
+        }
+    }
+    &__bottom{
+        margin-top: 8px;
+    }
+    &__logo{
+        margin-top: 18px;
+    }
+
+}
+
+.logo {
+   
+    &__a {
+        font-size: 46px;
+        font-weight: 300;
+        color: black;
+       
+    }
+
+    &__span {
+        color: $color1;
+        font-weight: 400;
+        background-image: url(img/header/logo.png);
+        background-repeat: no-repeat;
+        border-radius: 10px;
+             background-position-y: -20px;
+    }
+    &__p{
+        
+        font-size: 10px;
+        color: #c4c6c7;
+        text-transform: uppercase;
+        margin-top: 4px;
+    }
+}

@@ -1,0 +1,24 @@
+.nav-top{
+    height: 40px;
+    background-color: black;
+    &__ul{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    &__li{
+        color:#b1b7b9;
+        font-weight: 300;
+        margin-top: 11px;
+        font-size: $textSize;
+    }
+    &__a{
+        :hover{
+            color: $color1;
+            transition: 0.2s;
+        }
+    }
+    &__arrow{
+        margin-left: 5px;
+    }
+}
