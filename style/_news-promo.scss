@@ -1,5 +1,10 @@
+.news-promo {
+    display: flex;
+}
+
 .news {
     margin-top: 33px;
+
     &__block {
         width: 263px;
         margin-top: 32px;
@@ -16,7 +21,7 @@
     &__hr {
         height: 1px;
         width: 263px;
-      margin-top: 16px;
+        margin-top: 16px;
         background-color: #dbdee6;
     }
 
@@ -38,20 +43,22 @@
     &__p {
         font-weight: 400;
         font-size: $textSize;
-           color: #040d0d;
+        color: #040d0d;
         font-style: normal;
         letter-spacing: normal;
         line-height: normal;
     }
-    &__left{
+
+    &__left {
         position: relative;
     }
-    &__date{
+
+    &__date {
         position: absolute;
         text-align: center;
         padding-top: 3px;
-    top: 45px;
-    left: 13px;
+        top: 45px;
+        left: 13px;
         width: 36px;
         height: 28px;
         border-radius: 4px;
@@ -64,16 +71,202 @@
         letter-spacing: normal;
         line-height: 20px;
     }
-    &__month{
+
+    &__month {
         text-align: center;
         position: relative;
         z-index: 1;
         color: #040d0d;
-font-family: Roboto;
-font-size: 13px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: normal;
-line-height: 20px;
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 20px;
+    }
+
+    &__all {
+        width: 75px;
+        text-decoration: underline;
+        color: #4673ab;
+        font-size: 13px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 20px;
+        margin-top: 17px;
+        display: block;
+
+        &:hover {
+            color: $color1;
+        }
+    }
+}
+
+.promo {
+    margin-left: 42px;
+
+    &__top {
+        margin-top: 30px;
+        height: 48px;
+        background-color: #e3e5eb;
+        border-radius: 10px;
+        width: 100%;
+        padding-top: 15px;
+        padding-left: 35px;
+    }
+
+    &__bottom {
+        margin-top: 35px;
+    }
+
+    &__block {
+        width: 846px;
+        height: 368px;
+        background-image: url(img/news/Layer_772.png), url(img/news/backgr2.png), url(img/news/backgr3.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: bottom;
+    }
+
+    &__li {
+        list-style-image: url('img/news/li.png');
+    }
+
+    &__block {
+        padding-top: 49px;
+        padding-left: 66px;
+    }
+
+    &__decision {
+        color: #ff5816;
+        font-size: 31px;
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 38px;
+    }
+
+    &__h4 {
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 28px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    &__ul {
+        margin-left: 14px;
+        margin-top: 42px;
+    }
+
+    &__p {
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+    }
+
+    &__li {
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: $textSize;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 26px;
+    }
+
+    &__button {
+        width: 154px;
+        height: 40px;
+        box-shadow: inset 0 -3px 0 rgba(0, 1, 1, 0.23);
+        border-radius: 7px;
+        background-color: #ffffff;
+        display: block;
+        color: $color2;
+        font-size: 15px;
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 26px;
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 6px;
+        margin-top: 38px;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+
+    &__bottom {
+        position: relative;
+    }
+
+    &__text {
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    &__goods {
+        color: #131a1a;
+        font-size: 16px;
+        font-weight: 800;
+        font-style: italic;
+        letter-spacing: normal;
+        line-height: 20px;
+        text-transform: uppercase;
+    }
+
+    &__key {
+        font-weight: 600;
+        color: $color2;
+
+    }
+
+
+
+}
+
+.arrow__left {
+    position: absolute;
+    top: 170px;
+    left: 25px;
+}
+
+.arrow__right {
+    position: absolute;
+    top: 170px;
+    right: 25px;
+}
+
+.pagination {
+    display: flex;
+    position: absolute;
+    width: 87px;
+    bottom: 20px;
+    right: 19px;
+    justify-content: space-between;
+
+    &__block {
+        bottom: 20px;
+        width: 15px;
+        height: 15px;
+        border-radius: 4px;
+        background-color: #ffffff;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &__active {
+        background: $color1;
     }
 }
