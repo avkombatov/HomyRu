@@ -8,14 +8,27 @@ $textSize: 13px;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
 a {
     text-decoration: none;
     transition: 0.2s;
 }
+
 .center {
     padding-left: calc(50% - 570px);
     padding-right: calc(50% - 570px);
 }
+
 ul li {
     list-style-type: none;
+}
+
+h2 {
+    color: #040d0d;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    text-transform: uppercase;
 }
