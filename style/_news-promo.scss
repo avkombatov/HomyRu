@@ -105,7 +105,13 @@
 
 .promo {
     margin-left: 42px;
-
+&__slider{
+    width: 4230px;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: 0.4s;
+}
     &__top {
         margin-top: 30px;
         height: 48px;
@@ -118,6 +124,8 @@
 
     &__bottom {
         margin-top: 35px;
+        width: 846px;
+        overflow: hidden;
     }
 
     &__block {
@@ -244,13 +252,14 @@
     position: absolute;
     top: 170px;
     right: 25px;
+    display: none;
 }
 
 .pagination {
     display: flex;
     position: absolute;
     width: 87px;
-    bottom: 20px;
+    top: 335px;
     right: 19px;
     justify-content: space-between;
 

@@ -619,6 +619,17 @@ h2 {
   margin-left: 42px;
 }
 
+.promo__slider {
+  width: 4230px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  left: 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
 .promo__top {
   margin-top: 30px;
   height: 48px;
@@ -631,6 +642,8 @@ h2 {
 
 .promo__bottom {
   margin-top: 35px;
+  width: 846px;
+  overflow: hidden;
 }
 
 .promo__block {
@@ -754,6 +767,7 @@ h2 {
   position: absolute;
   top: 170px;
   right: 25px;
+  display: none;
 }
 
 .pagination {
@@ -762,7 +776,7 @@ h2 {
   display: flex;
   position: absolute;
   width: 87px;
-  bottom: 20px;
+  top: 335px;
   right: 19px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
