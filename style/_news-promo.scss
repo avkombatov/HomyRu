@@ -103,15 +103,19 @@
     }
 }
 
+
 .promo {
     margin-left: 42px;
-&__slider{
-    width: 4230px;
-    display: flex;
-    position: relative;
-    left: 0;
-    transition: 0.4s;
-}
+
+    &__slider {
+        width: 4230px;
+        display: flex;
+        position: relative;
+        left: 0;
+        transition: 0.4s;
+
+    }
+
     &__top {
         margin-top: 30px;
         height: 48px;
@@ -126,6 +130,9 @@
         margin-top: 35px;
         width: 846px;
         overflow: hidden;
+        position: relative;
+        height: 368px;
+        // border: 1px solid black;
     }
 
     &__block {
@@ -135,6 +142,24 @@
         background-repeat: no-repeat;
         background-position-x: right;
         background-position-y: bottom;
+        display: none;
+
+    }
+
+    &__img2 {
+        background-image: url(img/news/backg2.png), url(img/news/backgr2.png), url(img/news/backgr3.png);
+    }
+
+    &__img3 {
+        background-image: url(img/news/backg3.png), url(img/news/backgr2.png), url(img/news/backgr3.png);
+    }
+
+    &__img4 {
+        background-image: url(img/news/backg4.png), url(img/news/backgr2.png), url(img/news/backgr3.png);
+    }
+
+    &__img5 {
+        background-image: url(img/news/backg5.png), url(img/news/backgr2.png), url(img/news/backgr3.png);
     }
 
     &__li {
@@ -144,6 +169,7 @@
     &__block {
         padding-top: 49px;
         padding-left: 66px;
+        transition: 0.4s;
     }
 
     &__decision {
@@ -213,9 +239,7 @@
         }
     }
 
-    &__bottom {
-        position: relative;
-    }
+
 
     &__text {
         text-transform: uppercase;
@@ -237,22 +261,21 @@
         color: $color2;
 
     }
-
-
-
 }
 
 .arrow__left {
     position: absolute;
     top: 170px;
     left: 25px;
+    cursor: pointer;
 }
 
 .arrow__right {
     position: absolute;
     top: 170px;
     right: 25px;
-    display: none;
+    cursor: pointer;
+    // display: none;
 }
 
 .pagination {
@@ -278,4 +301,9 @@
     &__active {
         background: $color1;
     }
+}
+
+.block__active {
+    display: block;
+    // transition: 10s;
 }

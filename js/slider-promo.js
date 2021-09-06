@@ -23,3 +23,6 @@ buttonRight.addEventListener('click', function () {
     }
     sliderLine.style.left = -offset + 'px';
 });
+
+
+
