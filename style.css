@@ -841,6 +841,10 @@ h2 {
   margin-top: 12px;
 }
 
+.products-block__line_width {
+  width: 840px;
+}
+
 .products-block__all {
   color: #4673ab;
   font-size: 13px;
@@ -892,6 +896,10 @@ h2 {
   display: block;
 }
 
+.product__img_style {
+  margin: 13px auto;
+}
+
 .product__a {
   display: block;
   margin-left: 21px;
@@ -907,6 +915,11 @@ h2 {
   text-decoration: underline;
 }
 
+.product__a_style {
+  margin-left: 55px;
+  margin-top: 10px;
+}
+
 .product__a:hover {
   color: #ff6633;
 }
@@ -920,6 +933,17 @@ h2 {
   font-style: normal;
   letter-spacing: normal;
   line-height: 22px;
+}
+
+.product__text {
+  color: #040d0d;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 18px;
+  text-align: left;
+  margin-left: 23px;
 }
 
 .product .price__main {
@@ -991,17 +1015,64 @@ h2 {
   color: #ff6633;
 }
 
-.new {
+.product__time {
+  width: 126px;
+  height: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.product__period {
+  color: #1a2222;
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 16px;
+}
+
+.product__timer {
+  width: 233px;
+  height: 65px;
+  background-color: #dbdee6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 15px;
+  margin-top: 15px;
+}
+
+.product__number {
+  display: block;
+  text-align: center;
+  padding-top: 3px;
+  width: 17px;
+  height: 25px;
+  background-color: #262626;
+  color: #c7c7c7;
+}
+
+.product__colon {
+  color: #77797d;
+}
+
+.flag {
   position: relative;
 }
 
-.new__img {
+.flag__img {
   position: absolute;
   left: 11px;
   top: -4px;
 }
 
-.new__p {
+.flag__p {
   position: absolute;
   z-index: 1;
   color: #ffffff;
@@ -1043,5 +1114,9 @@ h2 {
 
 .block__foto {
   height: 170px;
+}
+
+.block__foto_height {
+  height: auto;
 }
 /*# sourceMappingURL=style.css.map */

@@ -11,6 +11,10 @@
         width: 927px;
         border: 1px solid #dbdee6;
         margin-top: 12px;
+
+        &_width {
+            width: 840px;
+        }
     }
 
     &__all {
@@ -41,7 +45,7 @@
 }
 
 .product {
-     width: 233px;
+    width: 233px;
     height: 388px;
     border-radius: 10px;
     border: 1px solid #dbdee6;
@@ -57,6 +61,10 @@
         margin-top: 32px;
         margin: 25px auto;
         display: block;
+
+        &_style {
+            margin: 13px auto;
+        }
 
     }
 
@@ -74,6 +82,11 @@
         line-height: 22px;
         text-decoration: underline;
 
+        &_style {
+            margin-left: 55px;
+            margin-top: 10px;
+        }
+
         &:hover {
             color: $color1;
         }
@@ -88,6 +101,17 @@
         font-style: normal;
         letter-spacing: normal;
         line-height: 22px;
+    }
+
+    &__text {
+        color: #040d0d;
+        font-size: 13px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 18px;
+        text-align: left;
+        margin-left: 23px;
     }
 
     .price__main {
@@ -156,9 +180,45 @@
         }
 
     }
+    &__time{
+        width: 126px;
+        height: 28px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__period{
+        color: #1a2222;
+
+font-size: 13px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: normal;
+line-height: 16px;
+    }
+    &__timer{
+        width: 233px;
+        height: 65px;
+        background-color:#dbdee6;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 15px;
+        margin-top: 15px;
+    }
+    &__number{
+        display: block;
+        text-align: center;
+        padding-top: 3px;
+        width: 17px;
+        height: 25px;
+        background-color:#262626;
+        color: #c7c7c7;
+    }
+    &__colon{
+        color: #77797d;
+    }
 }
 
-.new {
+.flag {
     position: relative;
 
     &__img {
@@ -198,10 +258,12 @@
         cursor: pointer;
     }
 }
-.product__prev{
+
+.product__prev {
     top: 185px;
 }
-.product__next{
+
+.product__next {
     top: 185px;
     right: 0px;
 }
@@ -210,4 +272,8 @@
 .block__foto {
 
     height: 170px;
+
+    &_height {
+        height: auto;
+    }
 }
