@@ -1119,4 +1119,9 @@ h2 {
 .block__foto_height {
   height: auto;
 }
+
+.products-recommend {
+  position: relative;
+  left: 0;
+}
 /*# sourceMappingURL=style.css.map */
