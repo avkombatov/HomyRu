@@ -1146,7 +1146,18 @@ h2 {
 .now__img {
   display: block;
   height: 212px;
-  width: 230px;
+  width: 238px;
+  color: #4673ab;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 22px;
+  text-decoration: underline;
+}
+
+.now__img:hover {
+  color: #ff6633;
 }
 
 .now__a {
@@ -1164,11 +1175,22 @@ h2 {
   color: #ff6633;
 }
 
-.now__descr {
+.now__p {
   max-width: 263px;
+  margin-top: 23px;
 }
 
-.now__foto {
-  width: 100%;
+.brands {
+  margin-top: 50px;
+}
+
+.brands__bottom {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=style.css.map */
