@@ -1193,4 +1193,55 @@ h2 {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
+.power {
+  height: 274px;
+  background-color: #e3e5eb;
+  border-radius: 10px;
+  margin-top: 60px;
+  padding-top: 38px;
+}
+
+.power .products-block__line_power {
+  width: 777px;
+  height: 3px;
+  background: white;
+}
+
+.power .products-block__top_power {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.power__circle {
+  text-align: center;
+  padding-top: 22px;
+  margin-left: 36px;
+  width: 100px;
+  height: 100px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.power__bottom {
+  margin-top: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.power__p {
+  max-width: 185px;
+  color: #040d0d;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 22px;
+}
 /*# sourceMappingURL=style.css.map */
