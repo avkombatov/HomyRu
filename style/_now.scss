@@ -1,0 +1,41 @@
+.now {
+    margin-top: 42px;
+
+    .products-block__line_now {
+        width: 765px;
+    }
+
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 53px;
+    }
+
+    &__img {
+        display: block;
+        height: 212px;
+        width: 230px;
+    }
+
+    &__a {
+        width: 263px;
+        color: $color2;
+        font-size: 16px;
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 22px;
+        text-decoration: underline;
+
+        &:hover {
+            color: $color1;
+        }
+    }
+    &__descr{
+        max-width: 263px;
+    }
+
+    &__foto {
+        width: 100%;
+    }
+}

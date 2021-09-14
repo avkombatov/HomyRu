@@ -1011,6 +1011,11 @@ h2 {
   margin-top: 10px;
 }
 
+.product__more_center {
+  display: block;
+  text-align: center;
+}
+
 .product__more:hover {
   color: #ff6633;
 }
@@ -1120,8 +1125,50 @@ h2 {
   height: auto;
 }
 
-.products-recommend {
-  position: relative;
-  left: 0;
+.now {
+  margin-top: 42px;
+}
+
+.now .products-block__line_now {
+  width: 765px;
+}
+
+.now__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 53px;
+}
+
+.now__img {
+  display: block;
+  height: 212px;
+  width: 230px;
+}
+
+.now__a {
+  width: 263px;
+  color: #4673ab;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 22px;
+  text-decoration: underline;
+}
+
+.now__a:hover {
+  color: #ff6633;
+}
+
+.now__descr {
+  max-width: 263px;
+}
+
+.now__foto {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
