@@ -1,3 +1,64 @@
-.statistics{
-    
+.statistics {
+    &__circle {
+        width: 130px;
+        height: 130px;
+        border: 1px solid #dbdee6;
+        background-color: #ffffff;
+        border-radius: 50%;
+        text-align: center;
+    }
+
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .block {
+
+        &__span-1,
+        &__span-2,
+        &__span-3,
+        &__span-4,
+        &__span-5,
+        &__span-6 {
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 18px;
+            text-align: center;
+            text-transform: uppercase;
+            display: block;
+        }
+
+        &__span-1 {
+            color: #ff5816;
+            font-size: 80px;
+            margin-top: 52px;
+        }
+
+        &__span-2 {
+            color: #394a5c;
+            font-size: 54px;
+            text-align: center;
+            margin-top: 52px;
+        }
+
+        &__span-3 {
+            color: #ff5816;
+            font-size: 44px;
+            margin-top: 32px;
+        }
+
+        
+    }
+.span__multiplication {
+            font-size: 19px;
+            display: block;
+            margin-top: 11px;
+            margin-bottom: -10px;
+        }
+        &__descr{
+            max-width: 148px;
+        }
+
 }

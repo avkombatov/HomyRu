@@ -1337,4 +1337,62 @@ h2 {
 .reason__ul_image {
   list-style-image: url(img/reason/ul-red.png);
 }
+
+.statistics__circle {
+  width: 130px;
+  height: 130px;
+  border: 1px solid #dbdee6;
+  background-color: #ffffff;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.statistics__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.statistics .block__span-1, .statistics .block__span-2, .statistics .block__span-3, .statistics .block__span-4, .statistics .block__span-5, .statistics .block__span-6 {
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+}
+
+.statistics .block__span-1 {
+  color: #ff5816;
+  font-size: 80px;
+  margin-top: 52px;
+}
+
+.statistics .block__span-2 {
+  color: #394a5c;
+  font-size: 54px;
+  text-align: center;
+  margin-top: 52px;
+}
+
+.statistics .block__span-3 {
+  color: #ff5816;
+  font-size: 44px;
+  margin-top: 32px;
+}
+
+.statistics .span__multiplication {
+  font-size: 19px;
+  display: block;
+  margin-top: 11px;
+  margin-bottom: -10px;
+}
+
+.statistics__descr {
+  max-width: 148px;
+}
 /*# sourceMappingURL=style.css.map */
