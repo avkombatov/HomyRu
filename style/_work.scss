@@ -1,0 +1,88 @@
+.work {
+    margin-top: 40px;
+
+    &__bottom {
+        border-bottom: 1px solid #dbdee6;
+        padding-bottom: 40px;
+    }
+
+    .products-block__line_work {
+        width: 850px;
+    }
+
+    &__top {
+        margin-top: 40px;
+        display: flex;
+    }
+
+    &__section {
+        width: 144px;
+        height: 43px;
+        border-radius: 7px;
+        background-color: #dbdee6;
+        border-radius: 5px;
+        margin-right: 4px;
+        padding-top: 12px;
+        padding-left: 15px;
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        &_active {
+            background-color: white;
+
+        }
+
+    }
+
+    &__name {
+        color: $color1;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 18px;
+
+        &_width {
+            width: 200px;
+        }
+    }
+
+    &__main {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+               
+    }
+
+    &__block {
+        display: flex;
+    }
+
+    &__img {
+        width: 32px;
+        height: 32px;
+        margin-left: 9px;
+    }
+
+    &__p {
+        width: 181px;
+        color: #040d0d;
+        font-size: 15px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 18px;
+        text-align: left;
+        margin-left: 5px;
+    }
+
+    &__arrow {
+        width: 45px;
+        height: 10px;
+        margin-top: 15px;
+    }
+
+}

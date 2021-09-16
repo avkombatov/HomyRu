@@ -1,4 +1,10 @@
 .statistics {
+    .products-block__line_statistics {
+        width: 970px;
+    }
+
+    margin-top: 41px;
+
     &__circle {
         width: 130px;
         height: 130px;
@@ -9,6 +15,7 @@
     }
 
     &__bottom {
+        margin-top: 40px;
         display: flex;
         justify-content: space-between;
     }
@@ -49,16 +56,65 @@
             margin-top: 32px;
         }
 
-        
+        &__span-4 {
+            color: #394a5c;
+            margin-top: 53px;
+            font-size: 80px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 18px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        &__span-5 {
+            color: #ff5816;
+            margin-top: 53px;
+            font-size: 80px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 18px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        &__span-6 {
+            color: #394a5c;
+            margin-top: 53px;
+            font-size: 80px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 18px;
+            text-align: center;
+            text-transform: uppercase;
+        }
     }
-.span__multiplication {
-            font-size: 19px;
-            display: block;
-            margin-top: 11px;
-            margin-bottom: -10px;
-        }
-        &__descr{
-            max-width: 148px;
-        }
+
+    .span__multiplication {
+        font-size: 19px;
+        display: block;
+        margin-top: 11px;
+        margin-bottom: -10px;
+    }
+
+    &__descr {
+        margin-top: 15px;
+        max-width: 140px;
+        color: #040d0d;
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 18px;
+        text-align: center;
+        text-transform: uppercase;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+    }
 
 }
