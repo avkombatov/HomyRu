@@ -1,0 +1,88 @@
+.footer {
+
+    margin-top: 40px;
+    height: 310px;
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 41px;
+        background-color: #5c7489;
+        height: 240px;
+    }
+
+    &__bottom {
+        padding-top: 13px;
+        height: 70px;
+        background-color: #2c3f53;
+    }
+
+    &__a {
+        color: #c8d4dc;
+        font-size: 13px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 26px;
+            text-decoration: underline;
+            &:hover{
+                color: $color1;
+            }
+    }
+    &__phone,
+    &__tel,
+    &__days{
+        color: white;
+    }
+    &__social{
+        margin-top: 45px;
+    }
+    &__descr{
+      
+        color: #c8d4dc;
+        font-size: 13px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 26px;
+    }
+
+
+}
+
+.header__logo_footer {
+    margin-top: 0;
+}
+
+.logo {
+    &__a_footer {
+        color: #f9fafb;
+        font-size: 32px;
+    }
+
+    &__p_footer {
+        font-size: 7px;
+        margin-top: 3px;
+    }
+
+    &__descr {
+        width: 235px;
+        color: #c8d4dc;
+        font-size: 13px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 18px;
+        margin-top: 25px;
+    }
+}
+
+.address__p {
+    width: 225px;
+    color: #c8d4dc;
+    font-size: 13px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 18px;
+}
