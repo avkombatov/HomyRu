@@ -1,0 +1,28 @@
+.descr {
+    margin-top: 39px;
+    display: flex;
+    justify-content: space-between;
+
+    &__left,
+    &__right {
+        width: 542px;
+    }
+
+    &__p {
+        color: #040d0d;
+        font-size: 15px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 22px;
+    }
+
+    &__a {
+        color: $color1;
+        text-decoration: underline;
+
+        &:hover {
+            color: $color2;
+        }
+    }
+}

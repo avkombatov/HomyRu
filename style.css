@@ -1195,11 +1195,14 @@ h2 {
 }
 
 .power {
+  margin-top: 35px;
+}
+
+.power__general {
   height: 274px;
-  background-color: #e3e5eb;
   border-radius: 10px;
-  margin-top: 60px;
   padding-top: 38px;
+  background-color: #e3e5eb;
 }
 
 .power .products-block__line_power {
@@ -1475,6 +1478,7 @@ h2 {
 }
 
 .work__section {
+  text-align: center;
   width: 144px;
   height: 43px;
   border-radius: 7px;
@@ -1482,11 +1486,12 @@ h2 {
   border-radius: 5px;
   margin-right: 4px;
   padding-top: 12px;
-  padding-left: 15px;
+  text-transform: uppercase;
 }
 
 .work__section:hover {
   cursor: pointer;
+  background-color: white;
 }
 
 .work__section_active {
@@ -1496,11 +1501,12 @@ h2 {
 .work__name {
   color: #ff6633;
   font-family: Roboto;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
   font-style: normal;
   letter-spacing: normal;
   line-height: 18px;
+  text-decoration: underline;
 }
 
 .work__name_width {
@@ -1545,5 +1551,37 @@ h2 {
   width: 45px;
   height: 10px;
   margin-top: 15px;
+}
+
+.descr {
+  margin-top: 39px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.descr__left, .descr__right {
+  width: 542px;
+}
+
+.descr__p {
+  color: #040d0d;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 22px;
+}
+
+.descr__a {
+  color: #ff6633;
+  text-decoration: underline;
+}
+
+.descr__a:hover {
+  color: #4673ab;
 }
 /*# sourceMappingURL=style.css.map */
