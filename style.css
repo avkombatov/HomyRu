@@ -1467,7 +1467,7 @@ h2 {
 
 .work__bottom {
   border-bottom: 1px solid #dbdee6;
-  padding-bottom: 40px;
+  height: 130px;
 }
 
 .work .products-block__line_work {
@@ -1525,6 +1525,19 @@ h2 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  display: none;
+}
+
+.work__main_active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.work__active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .work__block {

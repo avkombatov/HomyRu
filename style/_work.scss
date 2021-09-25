@@ -3,7 +3,7 @@
 
     &__bottom {
         border-bottom: 1px solid #dbdee6;
-        padding-bottom: 40px;
+        height: 130px;
     }
 
     .products-block__line_work {
@@ -25,7 +25,7 @@
         margin-right: 4px;
         padding-top: 12px;
         text-transform: uppercase;
-       
+
 
         &:hover {
             cursor: pointer;
@@ -40,7 +40,6 @@
     }
 
     &__name {
-       
         color: $color1;
         font-family: Roboto;
         font-size: 14px;
@@ -48,7 +47,7 @@
         font-style: normal;
         letter-spacing: normal;
         line-height: 18px;
-     text-decoration: underline;
+        text-decoration: underline;
 
         &_width {
             width: 200px;
@@ -59,7 +58,15 @@
         margin-top: 60px;
         display: flex;
         justify-content: space-between;
-               
+        display: none;
+
+        &_active {
+            display: flex;
+        }
+    }
+
+    &__active {
+        display: flex;
     }
 
     &__block {
@@ -82,7 +89,7 @@
         line-height: 18px;
         text-align: left;
         margin-left: 5px;
-      
+
     }
 
     &__arrow {
