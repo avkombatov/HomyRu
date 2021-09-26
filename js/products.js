@@ -1,55 +1,36 @@
-// let offset = 0; // смещение
-// const buttonPrev = document.querySelectorAll('.product__prev');
-// const buttonNext = document.querySelectorAll('.product__next');
-// const slider = document.querySelectorAll('.products__box');
+let offset = [0, 0, 0, 0]; //смещение слайдера
+let slider = document.querySelectorAll('.products__box');
+let prev = document.querySelectorAll('.product__prev');
+let next = document.querySelectorAll('.product__next');
 
-// const buttonPrev = document.querySelector('.product__prev');
-// const buttonNext = document.querySelector('.product__next');
-// const slider = document.querySelector('.products__box');
-// buttonNext.addEventListener('click', function () {
-//     offset = offset - 275;
-//     if (offset < 0) {
-//         offset = 1100;
-//     }
-//     slider.style.left = -offset + 'px';
-
-// });
-
-// buttonPrev.addEventListener('click', function () {
-//     offset = offset + 275;
-//     if (offset > 1100) {
-//         offset = 0;
-//     }
-//     slider.style.left = -offset + 'px';
-
-// });
-let offset = 0; //смещение
-let sliders = document.querySelectorAll('.products-block__bottom');
-
-for (i = 0; i < sliders.length; i++) {
-    init_slider(sliders[i]);
+for (a of prev) {
+    a.addEventListener('click', function () {
+        console.log(this);
+        for (i = 0; i < slider.length; i++) {
+            prevName = this.getAttribute('data-arrow');
+            if (prevName == i) {
+                offset[i] = offset[i] + 275;
+                if (offset[i] > 1100) {
+                    offset[i] = 0;
+                }
+                slider[i].style.left = -offset[i] + 'px';
+            }
+        }
+    })
 }
 
-function init_slider(slider) {
-    let slide = slider.querySelectorAll('.products__box');
-    let next = slider.querySelector('.product__next');
-    let prev = slider.querySelector('.product__prev');
-
-    next.addEventListener('click', function () {
-        offset = offset - 275;
-        if (offset < 0) {
-            offset = 1100;
+for (b of next) {
+    b.addEventListener('click', function () {
+        console.log(this);
+        for (i = 0; i < slider.length; i++) {
+            prevName = this.getAttribute('data-arrow');
+            if (prevName == i) {
+                offset[i] = offset[i] - 275;
+                if (offset[i] < 0) {
+                    offset[i] = 1100;
+                }
+                slider[i].style.left = -offset[i] + 'px';
+            }
         }
-        i = (i + 1) % slide.length;
-        slide[i].style.left = -offset + 'px';
-    });
-
-    prev.addEventListener('click', function () {
-        offset = offset + 275;
-        if (offset > 1100) {
-            offset = 0;
-        }
-        i = (i + 1) % slide.length;
-        slide[i].style.left = -offset + 'px';
-    });
+    })
 }
