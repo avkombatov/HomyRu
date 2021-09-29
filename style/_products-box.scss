@@ -174,7 +174,8 @@
         text-decoration: underline;
         color: $color2;
         margin-top: 10px;
-        &_center{
+
+        &_center {
             display: block;
             text-align: center;
         }
@@ -184,40 +185,80 @@
         }
 
     }
-    &__time{
+
+    &__time {
         width: 126px;
         height: 28px;
         display: flex;
         justify-content: space-between;
     }
-    &__period{
-        color: #1a2222;
 
-font-size: 13px;
-font-weight: 300;
-font-style: normal;
-letter-spacing: normal;
-line-height: 16px;
+    &__period {
+        color: #1a2222;
+        font-size: 13px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 16px;
     }
-    &__timer{
-        width: 233px;
+
+    &__timer {
+        width: 231px;
         height: 65px;
-        background-color:#dbdee6;
+        background-color: #dbdee6;
         display: flex;
         justify-content: space-around;
         padding-top: 15px;
         margin-top: 15px;
     }
-    &__number{
+    .timer{
+        height: 25px;
+        width: 125px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .timer__block{
+        width: 35px;
+        height: 25px;
+        background-color: #1f2021;
+        color: #aaaaaa;
+        font-size: 20px;
+        padding-left: 7px;
+    }
+    .timer__date{
+        display: flex;
+    }
+    .timer__p{
+        color: #7f8686;
+    color: black;
+       font-size: 11px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 16px;
+    }
+    .timer__days{
+        margin-left: 6px;
+    }
+    .timer__hours{
+        margin-left: 20px;
+    }
+    .timer__minutes{
+        margin-left: 12px;
+    }
+
+
+    &__number {
         display: block;
         text-align: center;
         padding-top: 3px;
         width: 17px;
         height: 25px;
-        background-color:#262626;
+        background-color: #262626;
         color: #c7c7c7;
     }
-    &__colon{
+
+    &__colon {
         color: #77797d;
     }
 }

@@ -1041,7 +1041,7 @@ h2 {
 }
 
 .product__timer {
-  width: 233px;
+  width: 231px;
   height: 65px;
   background-color: #dbdee6;
   display: -webkit-box;
@@ -1051,6 +1051,54 @@ h2 {
       justify-content: space-around;
   padding-top: 15px;
   margin-top: 15px;
+}
+
+.product .timer {
+  height: 25px;
+  width: 125px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.product .timer__block {
+  width: 35px;
+  height: 25px;
+  background-color: #1f2021;
+  color: #aaaaaa;
+  font-size: 20px;
+  padding-left: 7px;
+}
+
+.product .timer__date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.product .timer__p {
+  color: #7f8686;
+  color: black;
+  font-size: 11px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 16px;
+}
+
+.product .timer__days {
+  margin-left: 6px;
+}
+
+.product .timer__hours {
+  margin-left: 20px;
+}
+
+.product .timer__minutes {
+  margin-left: 12px;
 }
 
 .product__number {
