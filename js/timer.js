@@ -29,9 +29,7 @@ let timerBlock = document.querySelectorAll('.timer');
      </div>
    </div>`
   }
- 
-
-}
+ }
 
 timer();
 setInterval(timer, 1000);

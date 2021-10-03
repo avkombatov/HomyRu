@@ -307,3 +307,44 @@
     display: block;
     // transition: 10s;
 }
+
+@media(max-width:1160px)and(min-width:1024px) {
+    .promo {
+        &__top {
+            width: 647px;
+        }
+
+        &__text,
+        &__goods {
+            font-size: 12px;
+        }
+
+        &__block,
+        &__bottom {
+            width: 646px;
+            border-radius: 12px;
+        }
+        &__decision{
+            line-height: 30px;
+            font-size: 27px;
+        }
+        &__h4{
+            font-size: 25px;
+        }
+        &__p{
+            font-size: 17px;
+        }
+        &__li{
+            line-height: 24px;
+            font-size: 12px;
+        }
+        &__ul{
+            margin-top: 30px;
+        }
+
+    }
+
+    .arrow__right {
+        right: 25px;
+    }
+}

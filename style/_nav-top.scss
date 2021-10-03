@@ -22,3 +22,37 @@
         margin-left: 5px;
     }
 }
+.menu__mobile{
+display: flex;
+margin-top: 10px;
+display: none;
+&:hover .mobile__p{
+color: $color1;
+}
+}
+.mobile__img{
+    height: 15px;
+    width: 30px;
+}
+.mobile__p{
+    color: #bdc3c5;
+font-size: 13px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: normal;
+line-height: 20px;
+margin-left: 10px;
+margin-top: -2px;
+}
+@media(max-width:1160px)and(min-width:1024px){
+    .nav-top{
+        justify-content: center;
+        display: flex;
+        &__ul{
+            display: none;
+        }
+    }
+    .menu__mobile{
+        display: flex;
+    }
+}

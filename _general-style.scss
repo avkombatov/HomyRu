@@ -32,3 +32,10 @@ h2 {
     letter-spacing: normal;
     text-transform: uppercase;
 }
+@media(max-width:1160px)and(min-width:1024px){
+    .center{
+          padding-left: 5%;
+    padding-right: 5%;
+    }
+  
+}

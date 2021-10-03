@@ -31,6 +31,13 @@ h2 {
   text-transform: uppercase;
 }
 
+@media (max-width: 1160px) and (min-width: 1024px) {
+  .center {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
 .nav-top {
   height: 40px;
   background-color: black;
@@ -60,6 +67,53 @@ h2 {
 
 .nav-top__arrow {
   margin-left: 5px;
+}
+
+.menu__mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  display: none;
+}
+
+.menu__mobile:hover .mobile__p {
+  color: #ff6633;
+}
+
+.mobile__img {
+  height: 15px;
+  width: 30px;
+}
+
+.mobile__p {
+  color: #bdc3c5;
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  margin-left: 10px;
+  margin-top: -2px;
+}
+
+@media (max-width: 1160px) and (min-width: 1024px) {
+  .nav-top {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .nav-top__ul {
+    display: none;
+  }
+  .menu__mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .header__top {
@@ -412,6 +466,12 @@ h2 {
   line-height: 16px;
 }
 
+@media (max-width: 1160px) and (min-width: 1024px) {
+  .header__search {
+    display: none;
+  }
+}
+
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -503,6 +563,12 @@ h2 {
 
 .nav__block:hover .nav__a {
   text-decoration: underline;
+}
+
+@media (max-width: 1160px) and (min-width: 1024px) {
+  .menu {
+    display: none;
+  }
 }
 
 .news-promo {
@@ -819,6 +885,39 @@ h2 {
 
 .block__active {
   display: block;
+}
+
+@media (max-width: 1160px) and (min-width: 1024px) {
+  .promo__top {
+    width: 647px;
+  }
+  .promo__text, .promo__goods {
+    font-size: 12px;
+  }
+  .promo__block, .promo__bottom {
+    width: 646px;
+    border-radius: 12px;
+  }
+  .promo__decision {
+    line-height: 30px;
+    font-size: 27px;
+  }
+  .promo__h4 {
+    font-size: 25px;
+  }
+  .promo__p {
+    font-size: 17px;
+  }
+  .promo__li {
+    line-height: 24px;
+    font-size: 12px;
+  }
+  .promo__ul {
+    margin-top: 30px;
+  }
+  .arrow__right {
+    right: 25px;
+  }
 }
 
 .products-block {
