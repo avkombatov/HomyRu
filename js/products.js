@@ -1,7 +1,7 @@
 let offset = [0, 0, 0, 0]; //смещение слайдера
 let slider = document.querySelectorAll('.products__box');
-let prev = document.querySelectorAll('.product__prev');
-let next = document.querySelectorAll('.product__next');
+let prev = document.querySelectorAll('.prev');
+let next = document.querySelectorAll('.next');
 
 for (a of prev) {
     a.addEventListener('click', function () {

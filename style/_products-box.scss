@@ -1,9 +1,40 @@
 .products-block {
     margin-top: 55px;
+// &__bottom{
+//     width: 1000px;
+// }
+    &__h2 {
+        margin-right: 15px;
+    }
 
     &__top {
         display: flex;
+        // justify-content: space-between;
+    }
+
+    &__arrow {
+        // margin-left: 8px;
+        margin-right: 25px;
+        display: none;
+    }
+
+    &__arrows {
+        display: flex;
+        width: 70px;
         justify-content: space-between;
+        display: none;
+
+    }
+
+    .arrow__prev,
+    .arrow__next {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 1px solid #dbdee6;
+        text-align: center;
+        padding-top: 6px;
+        cursor: pointer;
     }
 
     &__line {
@@ -11,6 +42,7 @@
         width: 927px;
         border: 1px solid #dbdee6;
         margin-top: 12px;
+        margin-right: 15px;
 
         &_width {
             width: 840px;
@@ -62,8 +94,10 @@
         margin: 25px auto;
         display: block;
 
+
         &_style {
             margin: 13px auto;
+            width: 100%;
         }
 
     }
@@ -203,7 +237,7 @@
     }
 
     &__timer {
-        width: 231px;
+        // width: 231px;
         height: 65px;
         background-color: #dbdee6;
         display: flex;
@@ -211,13 +245,15 @@
         padding-top: 15px;
         margin-top: 15px;
     }
-    .timer{
+
+    .timer {
         height: 25px;
         width: 125px;
         display: flex;
         justify-content: space-between;
     }
-    .timer__block{
+
+    .timer__block {
         width: 35px;
         height: 25px;
         background-color: #1f2021;
@@ -225,25 +261,30 @@
         font-size: 20px;
         padding-left: 7px;
     }
-    .timer__date{
+
+    .timer__date {
         display: flex;
     }
-    .timer__p{
+
+    .timer__p {
         color: #7f8686;
-    color: black;
-       font-size: 11px;
-    font-weight: 300;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: 16px;
+        color: black;
+        font-size: 11px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 16px;
     }
-    .timer__days{
+
+    .timer__days {
         margin-left: 6px;
     }
-    .timer__hours{
+
+    .timer__hours {
         margin-left: 20px;
     }
-    .timer__minutes{
+
+    .timer__minutes {
         margin-left: 12px;
     }
 
