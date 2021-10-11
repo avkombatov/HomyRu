@@ -1,10 +1,15 @@
 .products-block {
     margin-top: 55px;
-// &__bottom{
-//     width: 1000px;
-// }
+
+    // &__bottom{
+    //     width: 1000px;
+    // }
     &__h2 {
         margin-right: 15px;
+
+        &_size {
+            font-size: 19px;
+        }
     }
 
     &__top {
@@ -46,6 +51,10 @@
 
         &_width {
             width: 840px;
+        }
+
+        &_now {
+            width: 765px;
         }
     }
 
