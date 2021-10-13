@@ -969,6 +969,10 @@ h2 {
   width: 765px;
 }
 
+.products-block__line_power {
+  width: 750px;
+}
+
 .products-block__all {
   color: #4673ab;
   font-size: 13px;
@@ -1360,6 +1364,12 @@ h2 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.brands__img {
+  margin-bottom: 15px;
 }
 
 .products-block__line_brand {
@@ -1378,7 +1388,6 @@ h2 {
 }
 
 .power .products-block__line_power {
-  width: 777px;
   height: 3px;
   background: white;
 }
@@ -1424,10 +1433,6 @@ h2 {
   margin-top: 44px;
 }
 
-.reason .products-block__line_reason {
-  width: 690px;
-}
-
 .reason__bottom {
   margin-top: 34px;
   display: -webkit-box;
@@ -1460,6 +1465,7 @@ h2 {
   display: flex;
   padding-top: 22px;
   padding-left: 33px;
+  border-radius: 10px 10px 0 0;
 }
 
 .reason .heading__img {
@@ -1915,6 +1921,9 @@ h2 {
   .products-block__line_now {
     width: 600px;
   }
+  .products-block__line_power {
+    width: 580px;
+  }
   .products-block__bottom {
     width: 945px;
   }
@@ -1926,6 +1935,13 @@ h2 {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: start;
+  }
+  .reason__left, .reason__right {
+    width: 450px;
+    height: 400px;
+  }
+  .reason__heading {
+    height: 85px;
   }
 }
 
@@ -1963,6 +1979,28 @@ h2 {
   }
   .products-block .product__prev,
   .products-block .product__next {
+    display: none;
+  }
+}
+
+@media (max-width: 1160px) and (min-width: 500px) {
+  .statistics__bottom {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 499px) and (min-width: 425px) {
+  .statistics__bottom {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+@media (max-width: 424px) and (min-width: 320px) {
+  .statistics {
     display: none;
   }
 }
@@ -2060,9 +2098,19 @@ h2 {
   .products-block__line_width {
     width: 540px;
   }
+  .products-block__line_power {
+    width: 450px;
+  }
   .now__img {
     height: 180px;
     width: 190px;
+  }
+  .reason .heading__p {
+    line-height: 15px;
+  }
+  .reason__left, .reason__right {
+    width: 400px;
+    height: 450px;
   }
 }
 
@@ -2149,6 +2197,12 @@ h2 {
   .products-block__line_width {
     width: 420px;
   }
+  .products-block__line_power {
+    width: 395px;
+  }
+  .products-block__line_reason {
+    width: 266px;
+  }
   .products-block__bottom {
     width: 730px;
   }
@@ -2162,8 +2216,7 @@ h2 {
     margin-right: 18px;
   }
   .now__bottom {
-    width: 705px;
-    overflow: hidden;
+    width: auto;
   }
   .now__img {
     height: 200px;
@@ -2171,6 +2224,17 @@ h2 {
   }
   .now__p {
     font-size: 17px;
+  }
+  .now__block_display {
+    display: none;
+  }
+  .reason .heading__p {
+    line-height: 15px;
+    font-size: 15px;
+  }
+  .reason__left, .reason__right {
+    width: 345px;
+    height: 490px;
   }
 }
 
@@ -2191,17 +2255,38 @@ h2 {
   .products-block__line {
     width: 350px;
   }
+  .products-block__line_power {
+    width: 255px;
+  }
   .now__bottom {
-    width: 565px;
+    width: auto;
     margin-left: 15px;
-    overflow: hidden;
   }
   .now__img {
     height: 150px;
     width: 190px;
   }
   .now__p {
-    font-size: 17px;
+    font-size: 15px;
+  }
+  .now__block_display {
+    display: none;
+  }
+  .power__circle {
+    width: 90px;
+    height: 90px;
+  }
+  .power__p {
+    max-width: 150px;
+    font-size: 11px;
+  }
+  .reason__bottom {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .reason__left, .reason__right {
+    width: auto;
+    height: 400px;
   }
 }
 
@@ -2226,6 +2311,12 @@ h2 {
   .products-block__line_width {
     width: 80px;
   }
+  .products-block__line_power {
+    display: none;
+  }
+  .products-block__h2_reason {
+    font-size: 18px;
+  }
   .products-block .product {
     width: 255px;
     margin-right: 20px;
@@ -2238,6 +2329,30 @@ h2 {
   .products-block__bottom {
     width: 255px;
     margin-left: 100px;
+  }
+  .power__general {
+    height: auto;
+    padding-bottom: 15px;
+  }
+  .power__bottom {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .power__block {
+    margin-top: 10px;
+  }
+  .reason__bottom {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .reason__left, .reason__right {
+    width: auto;
+    height: 450px;
+    margin-bottom: 10px;
+  }
+  .reason .heading__p {
+    font-size: 14px;
+    line-height: 15px;
   }
 }
 
@@ -2310,6 +2425,15 @@ h2 {
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
+  }
+  .brands {
+    display: none;
+  }
+  .power {
+    display: none;
+  }
+  .reason {
+    display: none;
   }
 }
 
