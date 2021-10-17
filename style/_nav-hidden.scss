@@ -1,0 +1,26 @@
+.nav-hidden {
+    display: none;
+
+    &__li {
+        position: relative;
+        background-color: #5c7489;
+        border-bottom: 1px solid white;
+        height: 35px;
+        padding-top: 6px;
+        padding-left: 15px;
+    }
+
+    &__a {
+        color: #9fb0bd;
+
+        &:hover {
+            color: $color1;
+        }
+    }
+
+    &__arrow {
+        position: absolute;
+        right: 10px;
+        top: 12px;
+    }
+}
